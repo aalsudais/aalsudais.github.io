@@ -61,7 +61,7 @@ a {
 }
 
 button.btn, input.btn {
-  padding: 12px 35px;
+  padding: 12px 12px;
   margin: 2em 0.5em;
   border: solid 1px #d5e0e7;
   border-radius: 4px;
@@ -108,12 +108,12 @@ button.btn, input.btn {
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
-  margin: 10em 0 9em 0;
+  margin: 4em 0 4em 0;
   @include bp-xsmall {
     margin: 5em 0 5em 0;
   }
   @include bp-small {
-    margin: 5em 0 5em 0;
+    margin: 3em 0 3em 0;
   }
 }
 

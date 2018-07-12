@@ -9,39 +9,37 @@
         <div class="hero-content">
 
 	
-<h3 style="text-align:center;">
-<img src="files/pics/pic.jpg" align="middle" height="150" width="150"  border="5" style="float:middle; border-color:white; border-radius: 50%;"/></h3>
+<h6 style="text-align:center;">
+<img src="files/pic-col.jpg" align="middle" height="200" width="200"  border="5" style="float:middle; border-color:white; border-radius: 50%;"/></h6>
 			
 
 		
 	  {% if site.data.global.title != '' %}
             <h3 class="text-center">{{ site.data.global.title }}</h3>
-	    <h5 class="text-center">{{ site.data.global.email }}</h5>
+	    <h6 class="text-center"><a href="mailto:azzam.alsudais@colorado.edu">{{ site.data.global.email }}</a></h6>
 	    <h5 class="section-title"></h5>
             {% endif %}
 	
 
-          <p>I am a Computer Science PhD student (since 2016) at the <a href="http://www.colorado.edu/cs">University of Colorado Boulder</a>. I work with my advisor <a href="http://eric-keller.github.io">Eric Keller</a> in the <a href="http://nsr.colorado.edu/">Networking and Security Research Group (NSR)</a>. My research spans the areas of Software-defined Networking (SDN), Network Functions Virtualization (NFV), and distributed, cloud, and network systems in general. I interned at <a href="http://about.att.com/sites/labs_research">AT&amp;T Labs Research</a> during the summer of 2017, and have been working closely with them ever since.</p>
+          <p style="text-align:justify; font-size:12pt">I am a Computer Science PhD student (since 2016) at the <a href="http://www.colorado.edu/cs">University of Colorado Boulder</a>. I work with my advisor <a href="http://eric-keller.github.io">Eric Keller</a> in the <a href="http://nsr.colorado.edu/">Networking and Security Research Group (NSR)</a>. My research spans the areas of Software-defined Networking (SDN), Network Function Virtualization (NFV), and distributed, cloud, and networked systems in general. I interned at <a href="http://about.att.com/sites/labs_research">AT&amp;T Labs Research</a> during the summer of 2017, and have been working closely with them since then.</p>
 
 
+	<h4 class="text-center"><a href="publications">Publications</a> &nbsp-&nbsp <a href="resume">Resume</a></h4>
          
 
           <div class="hero-buttons">
 
-
             {% if site.data.global.linkedin != '' %}
-              <a href="{{ site.data.global.linkedin }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i></button></a>
+              <a href="{{ site.data.global.linkedin }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>Linkedin</button></a>
             {% endif %}
 		
-	 {% if site.data.global.instagram != '' %}
-              <a href="{{ site.data.global.instagram }}"><button class="btn btn-default btn-lg"><i class="fa fa-instagram fa-lg"></i></button></a>
+	{% if site.data.global.github != '' %}
+              <a href="{{ site.data.global.github }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
             {% endif %}
 
-	{% if site.data.global.500px != '' %}
-              <a href="{{ site.data.global.500px }}"><button class="btn btn-default btn-lg"><i class="fa fa-500px fa-lg"></i></button></a>
+	{% if site.data.global.scholar != '' %}
+              <a href="{{ site.data.global.scholar }}"><button class="btn btn-default btn-lg"><i class="fa fa-book fa-lg"></i>Scholar</button></a>
             {% endif %}
-
-
 	
           </div>
 
