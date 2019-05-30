@@ -1,0 +1,155 @@
+<!doctype html>
+<head>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+
+  <title>Azzam Alsudais</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="Azzam Alsudais - " href="/feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="Azzam Alsudais - " href="/atom.xml">
+
+  <!-- Favicons -->
+  <link rel="icon" href="/img/favicon.png">
+
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700|Merriweather:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/animate.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body class="">
+
+<div class="main container" id="top">
+
+  
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">Azzam Alsudais</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              
+                <li>
+                  <a href="/">Home</a>
+                </li>
+              
+                <li>
+                  <a href="/research">Research</a>
+                </li>
+              
+                <li>
+                  <a href="/publications">Publications</a>
+                </li>
+              
+                <li>
+                  <a href="/resume">Resume</a>
+                </li>
+              
+            </ul>
+          </div>
+      </div>
+  </nav>
+  
+
+
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+          <h4 id="current-projects">Current Projects</h4>
+
+<ul>
+  <li><span style="color:teal; font-size:11pt;"><strong>Homing Geo-distributed Network Services</strong></span> – Network service providers (NSPs) typically run geo-distributed network infrastructures to
+better serve their clients’ needs.
+Network services offered by NSPs consist of virtual network functions (VNFs) and policies of how such network functions should be deployed.
+In addition to the geo-distributed nature of the infrastructure, the ever evolving requirements impose an additional challenge.
+Thus, we need an extensible framework that can (and should) accommodate new requirements on the fly. We design such framework that can flexibly
+serve complex homing requests and formulate the homing problem using binary quadratic programming (BQP) and implement an incremental solution to the problem.</li>
+</ul>
+
+<h4 id="previous-projects">Previous Projects</h4>
+
+<ul>
+  <li><span style="color:teal; font-size:11pt;"><strong>Scalable Search Service for Geo-distributed Systems</strong></span> – Finding nodes which match certain criteria, based on potentially highly dynamic information, is a critical need
+in many distributed systems, ranging from cloud management, to network service deployments, to emerging IoT applications.
+With the increasing scale, dynamicity, and richness of data, existing systems, which typically implement a custom solution
+based around message queues where nodes push status to a central database, are ill-suited for this purpose. To this end,
+we present FOCUS, a general and scalable service which easily integrates into existing and emerging systems to provide this
+fundamental capability. FOCUS utilizes a gossip-based protocol for nodes to organize into groups based on attributes and
+current value. With this approach, nodes need not synchronize with a central database, and instead the FOCUS service only
+needs to query the sub-set of nodes which have the potential to positively match a given query. We show FOCUS’s flexibility
+through an operational example of complex querying for Virtual Network Functions instantiation over cloud sites, and illustrate
+its ease of integration by replacing the push-based approach in OpenStack’s placement service. Our evaluation demonstrates a
+5-15x reduction in bandwidth consumption and an ability to scale much better than existing approaches.
+<br />
+<strong>Publications</strong>: <a href="files/papers/focus.pdf">FOCUS (IEEE ICDCS’19)</a> and <a href="files/papers/nodefinder_hotcloud18.pdf">NodeFinder (Usenix HotCloud’18)</a>
+<br /> </li>
+  <li><span style="color:teal; font-size:11pt;"><strong>Automated Network Management using Natural Language</strong></span> – we introduce Natural Language Processing to network management by leveraging the capabilities of
+Natural Language Processing tools, such as speech recognition and text parsing, to extract useful information to build network
+tasks. We propose an intermediate network-agnostic layer that acts as the medium between natural language input (spoken
+or written) and different network implementations. We have leveraged the programmability that Software Defined Networks
+(SDN) offers to build a prototype tool that takes natural language text as an input and uses it to build abstract tasks. Such tasks
+are then passed to a network controller to be performed in real time. To our knowledge, this is the first work that provides such
+interface between network users (in the form of natural language) and different network systems.
+<br />
+<strong>Publications</strong>: <a href="files/papers/HeyNet.pdf">HeyNet: (IEEE INFOCOM WORKSHOPS’17)</a>
+<br /> </li>
+  <li><span style="color:teal; font-size:11pt;"><strong>Sateless Network Functions</strong></span> – Stateless Network Functions, a new architecture for network functions virtualization,
+where we decouple the existing design of network functions into a stateless processing component along with
+a data store layer. In breaking the tight coupling, we enable a more elastic and resilient network function infrastructure. Our StatelessNF processing instances are
+architected around efficient pipelines utilizing DPDK for high performance network I/O, packaged as Docker
+containers for easy deployment, and a data store interface optimized based on the expected request patterns to efficiently access a RAMCloud-based data store.
+A network-wide orchestrator monitors the instances for load and failure, manages instances to scale and provide
+resilience, and leverages an OpenFlow-based network to direct traffic to instances. We implemented three example network functions (network address translator, firewall, and load balancer). Our evaluation shows (i) we are able to reach a throughput of 10Gbit/sec, with an added
+latency overhead of between 100µs and 500µs, (ii) we are able to have a failover which does not disrupt ongoing traffic, and (iii) when scaling out and scaling in we
+are able to match the ideal performance.
+<br />
+<strong>Publications</strong>: <a href="files/papers/stateless.pdf">StatelessNF: (Usenix NSDI’17)</a></li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-12 col-md-2 col-md-offset-1">
+            <p class="text-muted text-left "><a href=""></a></p>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-md-offset-2">
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- .main.container -->
+
+    
+    </body>
+</html>
+
