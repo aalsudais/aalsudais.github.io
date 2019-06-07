@@ -32,17 +32,17 @@ its ease of integration by replacing the push-based approach in OpenStack’s pl
 <br />
 **Publications**: [FOCUS (IEEE ICDCS'19)](files/papers/focus.pdf) and [NodeFinder (Usenix HotCloud'18)](files/papers/nodefinder_hotcloud18.pdf)
 <br />&nbsp;
-- <span style="color:teal; font-size:11pt;">**Automated Network Management using Natural Language**</span> -- we introduce Natural Language Processing to network management by leveraging the capabilities of
+- <span style="color:teal; font-size:11pt;">**Automated Network Management using Natural Language**</span> -- In this work, we introduce Natural Language Processing to network management by leveraging the capabilities of
 Natural Language Processing tools, such as speech recognition and text parsing, to extract useful information to build network
 tasks. We propose an intermediate network-agnostic layer that acts as the medium between natural language input (spoken
 or written) and different network implementations. We have leveraged the programmability that Software Defined Networks
 (SDN) offers to build a prototype tool that takes natural language text as an input and uses it to build abstract tasks. Such tasks
 are then passed to a network controller to be performed in real time. To our knowledge, this is the first work that provides such
-interface between network users (in the form of natural language) and different network systems.
+interface between network users (in the form of natural language) and different network systems. This work is along the lines of the now trending theme of "intent-based networking" (IBN).
 <br />
 **Publications**: [HeyNet: (IEEE INFOCOM WORKSHOPS'17)](files/papers/HeyNet.pdf)
 <br />&nbsp;
-- <span style="color:teal; font-size:11pt;">**Sateless Network Functions**</span> -- Stateless Network Functions, a new architecture for network functions virtualization,
+- <span style="color:teal; font-size:11pt;">**Sateless Network Functions**</span> -- In this work, we propose Stateless Network Functions, a new architecture for network functions virtualization,
 where we decouple the existing design of network functions into a stateless processing component along with
 a data store layer. In breaking the tight coupling, we enable a more elastic and resilient network function infrastructure. Our StatelessNF processing instances are
 architected around efficient pipelines utilizing DPDK for high performance network I/O, packaged as Docker
