@@ -9,7 +9,7 @@ permalink: /publications
 
 #### Peer-reviewed Conference Proceedings
 
-- <span style="color:teal; font-size:12pt;">*FOCUS: Scalable Search over Highly Dynamic Geo-distributed State*.</span> <span style="font-size:11pt;">\[[paper](files/papers/focus.pdf)\]\[[slides](files/papers/Focus-icdcs19_slides.pdf)\]</span> <br />
+- <span style="color:teal; font-size:12pt;">*FOCUS: Scalable Search over Highly Dynamic Geo-distributed State*.</span> <span style="font-size:11pt;">\[[paper](files/papers/focus.pdf)\]\[[slides](files/papers/focus_slides.pdf)\]</span> <br />
 <span style="color:grey; font-size:11pt;">**Azzam Alsudais**, Mohammad Hashemi, Zhe Huang, Bharath Balasubramanian, Shankaranarayanan Puzhavakath Narayanan, Eric Keller and Kaustubh Joshi. <br />
 In *Proceedings of The 39th IEEE International Conference on Distributed Computing Systems (**IEEE ICDCS'19**)*, Dallas, TX, USA, July 2019. (25% acceptance rate)
 
