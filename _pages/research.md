@@ -4,18 +4,6 @@ title: Research
 permalink: /research
 ---
 
-#### Current Projects
-
-- <span style="color:teal; font-size:11pt;">**Homing Geo-distributed Network Services**</span> -- Network service providers (NSPs) typically run geo-distributed network infrastructures to
-better serve their clients' needs.
-Network services offered by NSPs consist of virtual network functions (VNFs) and policies of how such network functions should be deployed.
-In addition to the geo-distributed nature of the infrastructure, the ever evolving requirements impose an additional challenge.
-Thus, we need an extensible framework that can (and should) accommodate new requirements on the fly. We design such framework that can flexibly
-serve complex homing requests and formulate the homing problem using binary quadratic programming (BQP) and implement an incremental solution to the problem.
-
-
-#### Previous Projects
-
 - <span style="color:teal; font-size:11pt;">**Scalable Search Service for Geo-distributed Systems**</span> -- Finding nodes which match certain criteria, based on potentially highly dynamic information, is a critical need
 in many distributed systems, ranging from cloud management, to network service deployments, to emerging IoT applications.
 With the increasing scale, dynamicity, and richness of data, existing systems, which typically implement a custom solution
