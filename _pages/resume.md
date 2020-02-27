@@ -38,6 +38,13 @@ permalink: /resume
 
 &nbsp;
 
+#### Service
+
+- **Reviewer**: IEEE Transactions on Network and Service Management (TNSM), Usenix HotEdge (2019) [external reviewer]
+- **PC Member**: IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) - PhD Forum Track (2020)
+
+&nbsp;
+
 #### AWARDS
 
 - Student Travel Award at [ONAP's first academic summit](https://events.linuxfoundation.org/events/academic-summit/) - October 2018
