@@ -40,8 +40,11 @@ permalink: /resume
 
 #### Service
 
-- **Reviewer**: IEEE Transactions on Network and Service Management (TNSM), Usenix HotEdge (2019) [external reviewer]
-- **PC Member**: IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) - PhD Forum Track (2020)
+- **Reviewer**:
+  - IEEE Transactions on Network and Service Management (TNSM)
+  - Usenix HotEdge (2019) [external reviewer]
+- **PC Member**:
+  - IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) - PhD Forum Track (2020)
 
 &nbsp;
 
