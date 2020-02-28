@@ -44,7 +44,7 @@ permalink: /resume
   - IEEE Transactions on Network and Service Management (TNSM)
   - Usenix HotEdge (2019) [external reviewer]
 - **PC Member**:
-  - IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) - PhD Forum Track (2020)
+  - IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) - Doctoral Forum Track (2020)
 
 &nbsp;
 
