@@ -41,8 +41,9 @@ permalink: /resume
 #### Service
 
 - **Reviewer**:
-  - IEEE Transactions on Network and Service Management (TNSM)
+  - IEEE CLOUD (2020) [external reviewer]
   - Usenix HotEdge (2019) [external reviewer]
+  - IEEE Transactions on Network and Service Management (TNSM) 2017-present
 - **PC Member**:
   - IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) - Doctoral Forum Track (2020)
 
