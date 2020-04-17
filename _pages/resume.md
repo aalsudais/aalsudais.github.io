@@ -28,26 +28,27 @@ permalink: /resume
 
 &nbsp;
 
-#### SKILLS
-
-- **Code**: Java \| Python \| C \| Objective-C \| BASH \| Git
-- **Operating Systems**: Linux \| MacOS \| MS Windows
-- **Networking Protocols**: OpenFlow \| IP:TCP/UDP \| BGP \| Named Data Networking (NDN)
-- **Network/Cloud Tools & Platforms**: Amazon EC2 \| OpenStack \| Docker \| DPDK \| Click \| Mininet \| Emulab \| CloudLab
-- **Paper Writing**: LaTeX \| Gnuplot
-
-&nbsp;
-
 #### Service
 
+- **PC Member**:
+  - IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) - Doctoral Forum Track (2020)
 - **Reviewer**:
   - IEEE CLOUD (2020) [external reviewer]
   - Usenix HotEdge (2019) [external reviewer]
   - IEEE Transactions on Network and Service Management (TNSM) 2017-present
-- **PC Member**:
-  - IEEE/IFIP International Conference on Dependable Systems and Networks (DSN) - Doctoral Forum Track (2020)
 
 &nbsp;
+
+#### SKILLS
+
+- **Coding**: Java \| Python \| C \| Objective-C \| BASH \| Git
+- **Operating Systems**: Linux \| MacOS \| MS Windows
+- **Protocols**: OpenFlow \| IP:TCP/UDP \| BGP \| Named Data Networking (NDN)
+- **Tools & Platforms**: Amazon EC2 \| OpenStack \| Docker \| DPDK \| Click \| Mininet \| Emulab \| CloudLab
+- **Paper Writing**: LaTeX \| Gnuplot
+
+&nbsp;
+
 
 #### AWARDS
 
