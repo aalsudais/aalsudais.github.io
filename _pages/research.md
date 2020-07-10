@@ -4,6 +4,10 @@ title: Research
 permalink: /research
 ---
 
+- <span style="color:teal; font-size:11pt;">**Homing Complex Network Services**</span> -- Homing or placement of virtual network functions on cloud infrastructures is a crucial step in the orchestration of network services, involving complex interactions with the cloud, SDN and service controllers. Traditionally, homing involves a laborious off-line process where Network Service Providers (NSPs) hand-craft service-specific homing heuristics, and pre-provision resources based on expected service load. This service-specific approach does not scale well as more services are deployed, since different services have very different set of requirements or constraints. While pre-provisioning leads to conservative over-allocation of resources, repeated querying of the various controllers (e.g., to check customer eligibility or capacity) consumes significant amount of time and resources at the controllers. We replace this traditional homing process with StepNet, a compositional homing framework, which allows service designers to mix and match constraints to construct instances of the homing problem simply and quickly, enabling greater agility of service creation and evolution. StepNet adopts an incremental approach to querying that provides near optimal homing solutions, while reducing the cumulative time spent by all of the data sources responding to queries for each homing request (query cost). Our evaluation with production traces from a Tier-1 NSP shows a reduction in query cost of 92% for over 50% of the requests.
+<br />
+**Publications**: under review
+<br />&nbsp;
 - <span style="color:teal; font-size:11pt;">**Scalable Search Service for Geo-distributed Systems**</span> -- Finding nodes which match certain criteria, based on potentially highly dynamic information, is a critical need
 in many distributed systems, ranging from cloud management, to network service deployments, to emerging IoT applications.
 With the increasing scale, dynamicity, and richness of data, existing systems, which typically implement a custom solution
